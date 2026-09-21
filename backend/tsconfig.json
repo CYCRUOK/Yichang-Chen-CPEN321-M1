@@ -20,6 +20,7 @@
     "declaration": false,
     "declarationMap": false,
     "sourceMap": false,
+    "isolatedModules": true,
     "skipLibCheck": true
   },
   "include": ["src/**/*.ts", "tests/**/*.ts"]

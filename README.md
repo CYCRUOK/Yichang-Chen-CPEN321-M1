@@ -67,6 +67,8 @@ Set at least:
 - `JWT_SECRET`: a long random string used to sign auth tokens.
 - `MONGODB_URI`: only needed for local development (default in `.env.example` assumes MongoDB on `localhost:27017`). Ignored when running via Docker Compose.
 - `PORT` (optional): defaults to `3000` if unset.
+- `OWNER_FIRST_NAME` / `OWNER_LAST_NAME`: the developer name returned by `GET /api/name`.
+- `SERVER_PUBLIC_IP` (optional): if set, `GET /api/server-ip` returns it instead of querying ipify.
 
 
 ### Option 1: Run locally
