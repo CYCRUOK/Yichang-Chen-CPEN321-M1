@@ -88,8 +88,8 @@ Fresh Ubuntu 22.04/24.04 VM with TCP 22, 80, 443 open:
 
 ```bash
 # on the VM
-curl -fsSL https://raw.githubusercontent.com/CYCRUOK/Yichang-Chen-CPEN321-Project-M1/main/scripts/cloud-setup.sh -o cloud-setup.sh
-OWNER_FIRST_NAME=Yichang OWNER_LAST_NAME=Chen bash cloud-setup.sh https://github.com/CYCRUOK/Yichang-Chen-CPEN321-Project-M1.git
+curl -fsSL https://raw.githubusercontent.com/CYCRUOK/Yichang-Chen-CPEN321-M1/main/scripts/cloud-setup.sh -o cloud-setup.sh
+OWNER_FIRST_NAME=Yichang OWNER_LAST_NAME=Chen bash cloud-setup.sh https://github.com/CYCRUOK/Yichang-Chen-CPEN321-M1.git
 # installs Docker, clones the repo to ~/cpen321, writes backend/.env, docker compose up -d
 
 DOMAIN=8-229-19-28.sslip.io EMAIL=<you@example.com> bash ~/cpen321/scripts/cloud-https.sh
